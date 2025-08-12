@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Какая марка автомобиля имеет логотип в виде четырёх колец?",
+        "answers": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
+        "correct": 2,
+        "level": "easy"
+    },
+    {
+        "question": "В каком году была основана компания Ferrari?",
+        "answers": ["1929", "1947", "1935", "1952"],
+        "correct": 1,
+        "level": "easy"
+    },
+    {
+        "question": "Что означает аббревиатура SUV?",
+        "answers": ["Super Urban Vehicle", "Sport Utility Vehicle", "Standard Universal Vehicle", "Special Use Vehicle"],
+        "correct": 1,
+        "level": "easy"
+    },
+    {
+        "question": "Какой автомобиль считается первым серийным автомобилем в мире?",
+        "answers": ["Ford Model T", "Benz Patent-Motorwagen", "Peugeot Type 3", "Daimler Motor Carriage"],
+        "correct": 1,
+        "level": "medium"
+    },
+    {
+        "question": "Какая максимальная скорость Bugatti Chiron?",
+        "answers": ["420 км/ч", "490 км/ч", "380 км/ч", "450 км/ч"],
+        "correct": 0,
+        "level": "medium"
+    },
+    {
+        "question": "Какая страна является родиной марки Volvo?",
+        "answers": ["Норвегия", "Дания", "Швеция", "Финляндия"],
+        "correct": 2,
+        "level": "easy"
+    },
+    {
+        "question": "Что означает GTI в названиях автомобилей?",
+        "answers": ["Gran Turismo Injection", "Grand Touring International", "Great Technical Innovation", "General Transport Index"],
+        "correct": 0,
+        "level": "medium"
+    },
+    {
+        "question": "Какой двигатель установлен в Tesla Model S Plaid?",
+        "answers": ["V8", "V12", "Электрический", "Hybrid V6"],
+        "correct": 2,
+        "level": "hard"
+    },
+    {
+        "question": "В каком году был выпущен первый Porsche 911?",
+        "answers": ["1963", "1965", "1961", "1967"],
+        "correct": 0,
+        "level": "medium"
+    },
+    {
+        "question": "Какая марка использует слоган 'Sheer Driving Pleasure'?",
+        "answers": ["Mercedes-Benz", "BMW", "Audi", "Lexus"],
+        "correct": 1,
+        "level": "easy"
+    }
+]
