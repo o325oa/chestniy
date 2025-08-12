@@ -1,5 +1,4 @@
 [
-  /* EASY – 15 вопросов */
   {
     "question": "Какая марка автомобиля имеет логотип в виде четырёх колец?",
     "answers": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
@@ -90,8 +89,6 @@
     "correct": 2,
     "level": "easy"
   },
-
-  /* MEDIUM – 15 вопросов */
   {
     "question": "Какой автомобиль считается первым серийным автомобильным транспортным средством?",
     "answers": ["Ford Model T", "Benz Patent-Motorwagen", "Peugeot Type 3", "Daimler Motor Carriage"],
@@ -182,8 +179,6 @@
     "correct": 3,
     "level": "medium"
   },
-
-  /* HARD – 15 вопросов */
   {
     "question": "Какой двигатель установлен в Tesla Model S Plaid?",
     "answers": ["Один электрический", "Два электрических", "Три электрических", "Четыре электрических"],
