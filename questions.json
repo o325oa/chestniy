@@ -1,62 +1,277 @@
 [
-    {
-        "question": "Какая марка автомобиля имеет логотип в виде четырёх колец?",
-        "answers": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
-        "correct": 2,
-        "level": "easy"
-    },
-    {
-        "question": "В каком году была основана компания Ferrari?",
-        "answers": ["1929", "1947", "1935", "1952"],
-        "correct": 1,
-        "level": "easy"
-    },
-    {
-        "question": "Что означает аббревиатура SUV?",
-        "answers": ["Super Urban Vehicle", "Sport Utility Vehicle", "Standard Universal Vehicle", "Special Use Vehicle"],
-        "correct": 1,
-        "level": "easy"
-    },
-    {
-        "question": "Какой автомобиль считается первым серийным автомобилем в мире?",
-        "answers": ["Ford Model T", "Benz Patent-Motorwagen", "Peugeot Type 3", "Daimler Motor Carriage"],
-        "correct": 1,
-        "level": "medium"
-    },
-    {
-        "question": "Какая максимальная скорость Bugatti Chiron?",
-        "answers": ["420 км/ч", "490 км/ч", "380 км/ч", "450 км/ч"],
-        "correct": 0,
-        "level": "medium"
-    },
-    {
-        "question": "Какая страна является родиной марки Volvo?",
-        "answers": ["Норвегия", "Дания", "Швеция", "Финляндия"],
-        "correct": 2,
-        "level": "easy"
-    },
-    {
-        "question": "Что означает GTI в названиях автомобилей?",
-        "answers": ["Gran Turismo Injection", "Grand Touring International", "Great Technical Innovation", "General Transport Index"],
-        "correct": 0,
-        "level": "medium"
-    },
-    {
-        "question": "Какой двигатель установлен в Tesla Model S Plaid?",
-        "answers": ["V8", "V12", "Электрический", "Hybrid V6"],
-        "correct": 2,
-        "level": "hard"
-    },
-    {
-        "question": "В каком году был выпущен первый Porsche 911?",
-        "answers": ["1963", "1965", "1961", "1967"],
-        "correct": 0,
-        "level": "medium"
-    },
-    {
-        "question": "Какая марка использует слоган 'Sheer Driving Pleasure'?",
-        "answers": ["Mercedes-Benz", "BMW", "Audi", "Lexus"],
-        "correct": 1,
-        "level": "easy"
-    }
+  /* EASY – 15 вопросов */
+  {
+    "question": "Какая марка автомобиля имеет логотип в виде четырёх колец?",
+    "answers": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
+    "correct": 2,
+    "level": "easy"
+  },
+  {
+    "question": "Что означает аббревиатура SUV?",
+    "answers": ["Super Urban Vehicle", "Sport Utility Vehicle", "Standard Universal Vehicle", "Special Use Vehicle"],
+    "correct": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Какая страна является родиной марки Volvo?",
+    "answers": ["Норвегия", "Дания", "Швеция", "Финляндия"],
+    "correct": 2,
+    "level": "easy"
+  },
+  {
+    "question": "Какой цвет кузова чаще всего ассоциируется с гонками Формулы 1?",
+    "answers": ["Красный", "Чёрный", "Белый", "Жёлтый"],
+    "correct": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Какая марка выпускает модель Camry?",
+    "answers": ["Honda", "Toyota", "Nissan", "Mazda"],
+    "correct": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Что означает аббревиатура ABS в автомобиле?",
+    "answers": ["Automatic Braking System", "Anti-lock Braking System", "Advanced Brake Safety", "Auto Brake Stabilizer"],
+    "correct": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Какой из этих автомобилей является электромобилем?",
+    "answers": ["Ford Mustang", "Toyota Prius", "Tesla Model 3", "Chevrolet Camaro"],
+    "correct": 2,
+    "level": "easy"
+  },
+  {
+    "question": "Что измеряется в л/100 км?",
+    "answers": ["Скорость", "Расход топлива", "Объём двигателя", "Мощность"],
+    "correct": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Какая марка использует слоган \"Sheer Driving Pleasure\"?",
+    "answers": ["Mercedes-Benz", "BMW", "Audi", "Lexus"],
+    "correct": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Какое топливо используют гибридные автомобили?",
+    "answers": ["Только бензин", "Только дизель", "Бензин и электричество", "Газ"],    
+    "correct": 2,
+    "level": "easy"
+  },
+  {
+    "question": "Что указывает на наддув турбокомпрессора?",
+    "answers": ["Turbo", "VVT", "EFI", "TDI"],
+    "correct": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Как называется автомобиль с кузовом седан?",
+    "answers": ["4 двери, багажник", "2 двери, хэтчбек", "Универсал", "Купе"],
+    "correct": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Какая марка выпускает внедорожник Defender?",
+    "answers": ["Land Rover", "Jeep", "Ford", "Toyota"],
+    "correct": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Что такое регенеративное торможение?",
+    "answers": ["Тип спортивного тормоза", "Подзарядка аккумулятора при торможении", "Антиблокировочная система", "Резервный тормоз"],
+    "correct": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Как называется устройство, позволяющее изменять передачу?",
+    "answers": ["Руль", "Педаль газа", "Коробка передач", "Топливный насос"],
+    "correct": 2,
+    "level": "easy"
+  },
+
+  /* MEDIUM – 15 вопросов */
+  {
+    "question": "Какой автомобиль считается первым серийным автомобильным транспортным средством?",
+    "answers": ["Ford Model T", "Benz Patent-Motorwagen", "Peugeot Type 3", "Daimler Motor Carriage"],
+    "correct": 1,
+    "level": "medium"
+  },
+  {
+    "question": "В каком году был выпущен первый Porsche 911?",
+    "answers": ["1961", "1963", "1965", "1967"],
+    "correct": 1,
+    "level": "medium"
+  },
+  {
+    "question": "Что означает GTI в названии VW Golf GTI?",
+    "answers": ["Gran Turismo Injection", "Grand Touring International", "Great Technical Innovation", "General Transport Index"],
+    "correct": 0,
+    "level": "medium"
+  },
+  {
+    "question": "Какая максимальная скорость Bugatti Chiron?",
+    "answers": ["420 км/ч", "450 км/ч", "380 км/ч", "490 км/ч"],
+    "correct": 0,
+    "level": "medium"
+  },
+  {
+    "question": "Что такое Lancia Stratos?",
+    "answers": ["Концепт-кар", "Гоночный прототип", "Серийный автомобиль", "Мотоцикл"],
+    "correct": 1,
+    "level": "medium"
+  },
+  {
+    "question": "Какой тип привода у Subaru Impreza WRX?",
+    "answers": ["Передний", "Задний", "Полный", "Зарядной"],
+    "correct": 2,
+    "level": "medium"
+  },
+  {
+    "question": "Кто является основателем компании Tesla?",
+    "answers": ["Илон Маск", "Мартин Эберхард", "Маркус Штраубель", "Все вместе"],
+    "correct": 3,
+    "level": "medium"
+  },
+  {
+    "question": "Что такое VTEC в двигателях Honda?",
+    "answers": ["Вариаторный клапанный привод", "Система изменения фаз ГРМ", "Система впрыска топлива", "Турбонаддув"],
+    "correct": 1,
+    "level": "medium"
+  },
+  {
+    "question": "Какая главная особенность машины McLaren F1?",
+    "answers": ["3 сиденья в ряд", "Гибридный двигатель", "Складные двери", "Концепт-кар"],
+    "correct": 0,
+    "level": "medium"
+  },
+  {
+    "question": "Какой объём двигателя у Ford Mustang GT (2020)?",
+    "answers": ["2.3 л", "3.5 л", "5.0 л", "4.2 л"],
+    "correct": 2,
+    "level": "medium"
+  },
+  {
+    "question": "Какую фирму основал Энцо Феррари?",
+    "answers": ["Ferrari", "Maserati", "Lamborghini", "Alfa Romeo"],
+    "correct": 0,
+    "level": "medium"
+  },
+  {
+    "question": "Что означает PHEV?",
+    "answers": ["Plug-in Hybrid Electric Vehicle", "Performance High Efficiency Vehicle", "Parallel Hybrid Electric Vehicle", "Power Hybrid Engine Vehicle"],
+    "correct": 0,
+    "level": "medium"
+  },
+  {
+    "question": "Какая конструкция кузова у Tesla Model X?",
+    "answers": ["Седан", "Хэтчбек", "Универсал", "Кроссовер"],
+    "correct": 3,
+    "level": "medium"
+  },
+  {
+    "question": "Что такое Michelin Pilot Sport?",
+    "answers": ["Модель шины", "Топливо высокой мощности", "Система стабилизации", "Катализатор"],
+    "correct": 0,
+    "level": "medium"
+  },
+  {
+    "question": "Какой тип подвески у Land Rover Defender?",
+    "answers": ["МакФерсон", "Многорычажная", "Листовые рессоры", "Пневматическая"],
+    "correct": 3,
+    "level": "medium"
+  },
+
+  /* HARD – 15 вопросов */
+  {
+    "question": "Какой двигатель установлен в Tesla Model S Plaid?",
+    "answers": ["Один электрический", "Два электрических", "Три электрических", "Четыре электрических"],
+    "correct": 2,
+    "level": "hard"
+  },
+  {
+    "question": "Что такое W16 в Bugatti Chiron?",
+    "answers": ["Тип подвески", "Конфигурация двигателя", "Блок управления", "Система привода"],
+    "correct": 1,
+    "level": "hard"
+  },
+  {
+    "question": "Какой КПП используется в McLaren 720S?",
+    "answers": ["7-ступенчатая роботизированная", "8-ступенчатая АКПП", "6-ступенчатая МКПП", "9-ступенчатая АКПП"],
+    "correct": 0,
+    "level": "hard"
+  },
+  {
+    "question": "Что означает индекс GT3 в Porsche?",
+    "answers": ["Гоночная версия", "Городская модификация", "Гибридный турбомотор", "Гранд Турер третьего поколения"],
+    "correct": 0,
+    "level": "hard"
+  },
+  {
+    "question": "Какая максимальная тормозная нагрузка у Brembo GT4?",
+    "answers": ["1200 Н", "1500 Н", "1800 Н", "2000 Н"],
+    "correct": 2,
+    "level": "hard"
+  },
+  {
+    "question": "Кто разработал первый турбодизельный автомобиль?",
+    "answers": ["Mercedes-Benz", "Peugeot", "Mitsubishi", "Audi"],
+    "correct": 1,
+    "level": "hard"
+  },
+  {
+    "question": "Что такое KERS в Формуле 1?",
+    "answers": ["Система рекуперации энергии торможения", "Антиблокировочная система", "Система управления подвеской", "Система подогрева шин"],
+    "correct": 0,
+    "level": "hard"
+  },
+  {
+    "question": "Какая передаточная пара используется в Bugatti Veyron Super Sport?",
+    "answers": ["2.88:1", "3.45:1", "4.00:1", "2.50:1"],
+    "correct": 1,
+    "level": "hard"
+  },
+  {
+    "question": "Какой коэффициент аэродинамического сопротивления у Tesla Model 3?",
+    "answers": ["0.23", "0.27", "0.30", "0.35"],
+    "correct": 0,
+    "level": "hard"
+  },
+  {
+    "question": "Что такое ERS в современном автоспорте?",
+    "answers": ["Energy Recovery System", "Engine Regulation Software", "Electronic Ride Stabilizer", "Emergency Retard System"],
+    "correct": 0,
+    "level": "hard"
+  },
+  {
+    "question": "Какой диаметр тормозного диска у Porsche 911 GT3 RS?",
+    "answers": ["380 мм", "410 мм", "420 мм", "440 мм"],
+    "correct": 2,
+    "level": "hard"
+  },
+  {
+    "question": "Кто является конструктором первого гидравлического усилителя руля?",
+    "answers": ["General Motors", "Ford", "Chrysler", "Citroën"],
+    "correct": 3,
+    "level": "hard"
+  },
+  {
+    "question": "Какую топливную смесь использует Ferrari SF90 Stradale?",
+    "answers": ["95 октанов бензин", "98 октанов бензин", "100 октанов бензин", "Этанол E85"],
+    "correct": 1,
+    "level": "hard"
+  },
+  {
+    "question": "Что такое MGU-H в Формуле 1?",
+    "answers": ["Motor Generator Unit – Heat", "Mass Gas Unit – Hybrid", "Mechanical Gear Unit – High", "Motor Gearbox Unit – Hydraulic"],
+    "correct": 0,
+    "level": "hard"
+  },
+  {
+    "question": "Какая мощность рекордного двигателей Mazda 787B 1991 года?",
+    "answers": ["610 л. с.", "700 л. с.", "830 л. с.", "1000 л. с."],
+    "correct": 2,
+    "level": "hard"
+  }
 ]
